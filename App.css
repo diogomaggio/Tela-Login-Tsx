@@ -1,0 +1,41 @@
+#root{
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 200px);
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-top: 200px; 
+}
+
+.container input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+
+}
